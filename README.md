@@ -1,4 +1,4 @@
-[AdminLTE](https://postimg.org/image/ipamihdv7/)
+https://s5.postimg.org/x8hrjw707/image.png
 This is AdminLTE builder for php, just try and learning. Thanks to <a href="http://almsaeedstudio.com">Almsaeed Studio</a>
 
 ## Install
@@ -9,19 +9,16 @@ Using Composer
 composer install
 ```
 
-in your direktori project`
-
-
-> Note, there is a class Sniper; available, so unless you really want to use the Facade, there's no need to include it.
+> in your direktori project
 
 ## Usage
 
 ### Basic
 
-<?php 
+<code>
 $var = new Spider();
 echo $var->header();
-?>
+</code>
 
 > Spider automatic generate header from your page.
 
