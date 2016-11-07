@@ -1,4 +1,4 @@
-https://s5.postimg.org/x8hrjw707/image.png
+<a href='https://postimg.org/image/ipamihdv7/' target='_blank'><img src='https://s5.postimg.org/ipamihdv7/image.png' border='0' alt='postimage'/></a>
 This is AdminLTE builder for php, just try and learning. Thanks to <a href="http://almsaeedstudio.com">Almsaeed Studio</a>
 
 ## Install
@@ -16,8 +16,10 @@ composer install
 ### Basic
 
 <code>
-$var = new Spider();
+<?php
+$var = new Spider();<br/>
 echo $var->header();
+?>
 </code>
 
 > Spider automatic generate header from your page.
